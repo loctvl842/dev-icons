@@ -1596,7 +1596,7 @@ local function setup(opts)
 
 	vim.cmd([[augroup NvimWebDevicons]])
 	vim.cmd([[autocmd!]])
-	vim.cmd([[autocmd ColorScheme * lua require('dev-icons.nvim').set_up_highlights()]])
+	vim.cmd([[autocmd ColorScheme * lua require('dev-icons').set_up_highlights()]])
 	vim.cmd([[augroup END]])
 end
 
